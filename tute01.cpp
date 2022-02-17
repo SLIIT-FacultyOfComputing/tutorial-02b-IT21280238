@@ -37,12 +37,13 @@ int main()
 {
   float cm , inches ;
 
-  cout << " Enter the length : " << cm  ;
-  cin << cm ;
+  cout << "Enter CM value: " << cm ;
+  cin >> cm ;
+  cout << endl ;
 
-  inches = cm/2.54 ;
+  inches = cm / 2.54 ;
 
-  cout << " The Value in Inches : " << inches ;
+  cout << " Value in INCHES: " << inches ;
 
   return 0;
 }
